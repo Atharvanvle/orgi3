@@ -1,0 +1,40 @@
+html,body{
+    background-image:url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1,h2{
+    text-align: center;;
+    color:whitesmoke;
+}
+h3{
+    text-align: left;
+    color:blanchedalmond;
+}
+.header{
+    display:flex;
+    justify-content:space-between;
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.item h2{
+    color:wheat;
+    position:middle;
+    top: 10%;
+    left:10%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+.item:hover h2{
+    opacity:3
+ }
+ .item:hover img{
+     opacity:0.66
+ }
+ .item:hover{
+    transform:scale(1.2)
+
+ }
